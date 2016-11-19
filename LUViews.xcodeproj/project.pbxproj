@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351468061DDF1B2E00DEF45B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468051DDF1B2E00DEF45B /* main.m */; };
+		351468091DDF1B2E00DEF45B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468081DDF1B2E00DEF45B /* AppDelegate.m */; };
+		3514680C1DDF1B2E00DEF45B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514680B1DDF1B2E00DEF45B /* ViewController.m */; };
+		3514680F1DDF1B2E00DEF45B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3514680D1DDF1B2E00DEF45B /* Main.storyboard */; };
+		351468111DDF1B2E00DEF45B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351468101DDF1B2E00DEF45B /* Assets.xcassets */; };
+		351468141DDF1B2E00DEF45B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351468121DDF1B2E00DEF45B /* LaunchScreen.storyboard */; };
+		351468301DDF1BDC00DEF45B /* EPHorizonCalendar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 351468291DDF1BDC00DEF45B /* EPHorizonCalendar@3x.png */; };
+		351468311DDF1BDC00DEF45B /* EPHorizonPointGreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514682A1DDF1BDC00DEF45B /* EPHorizonPointGreen@3x.png */; };
+		351468321DDF1BDC00DEF45B /* EPHorizonPointOrange@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514682B1DDF1BDC00DEF45B /* EPHorizonPointOrange@3x.png */; };
+		351468331DDF1BDC00DEF45B /* EPHorizonProgressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514682D1DDF1BDC00DEF45B /* EPHorizonProgressCard.m */; };
+		351468341DDF1BDC00DEF45B /* EPHorizonProgressCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514682F1DDF1BDC00DEF45B /* EPHorizonProgressCardModel.m */; };
+		351468371DDF1DCB00DEF45B /* ShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468361DDF1DCB00DEF45B /* ShowVC.m */; };
+		3514683A1DDF201B00DEF45B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468391DDF201B00DEF45B /* UIView+Frame.m */; };
+		351468441DDF23AE00DEF45B /* EPBarChartCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514683E1DDF23AE00DEF45B /* EPBarChartCardModel.m */; };
+		351468451DDF23AE00DEF45B /* EPBarChartCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468411DDF23AE00DEF45B /* EPBarChartCard.m */; };
+		351468461DDF23AE00DEF45B /* EPBarChartDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468431DDF23AE00DEF45B /* EPBarChartDrawView.m */; };
+		351468531DDF254500DEF45B /* EPFillLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514684D1DDF254500DEF45B /* EPFillLineModel.m */; };
+		351468541DDF254500DEF45B /* EPCardSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468501DDF254500DEF45B /* EPCardSelectView.m */; };
+		351468551DDF254500DEF45B /* EPFillLineCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468521DDF254500DEF45B /* EPFillLineCard.m */; };
+		351468611DDF447300DEF45B /* EPLineChartCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468591DDF447300DEF45B /* EPLineChartCardModel.m */; };
+		351468621DDF447300DEF45B /* EPLineChartCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514685C1DDF447300DEF45B /* EPLineChartCard.m */; };
+		351468631DDF447300DEF45B /* EPLineChartDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514685E1DDF447300DEF45B /* EPLineChartDrawView.m */; };
+		351468641DDF447300DEF45B /* EPPassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468601DDF447300DEF45B /* EPPassView.m */; };
+		351468771DDF4A6100DEF45B /* EPPieChartCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468681DDF4A6100DEF45B /* EPPieChartCardModel.m */; };
+		351468781DDF4A6100DEF45B /* EPPieChartCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514686B1DDF4A6100DEF45B /* EPPieChartCard.m */; };
+		3514687F1DDF4CCF00DEF45B /* EPLinePie.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514687E1DDF4CCF00DEF45B /* EPLinePie.m */; };
+		351468821DDF506F00DEF45B /* EPPie.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468811DDF506F00DEF45B /* EPPie.m */; };
+		351468901DDF514300DEF45B /* EPLinePieChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 351468861DDF514300DEF45B /* EPLinePieChartModel.m */; };
+		351468921DDF514300DEF45B /* EPLinePieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514688B1DDF514300DEF45B /* EPLinePieChart.m */; };
+		351468931DDF514300DEF45B /* EPLinePieInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514688D1DDF514300DEF45B /* EPLinePieInfoView.m */; };
+		351468941DDF514300DEF45B /* EPLinePieLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514688F1DDF514300DEF45B /* EPLinePieLineView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		351468011DDF1B2E00DEF45B /* LUViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		351468051DDF1B2E00DEF45B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		351468071DDF1B2E00DEF45B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		351468081DDF1B2E00DEF45B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3514680A1DDF1B2E00DEF45B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3514680B1DDF1B2E00DEF45B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3514680E1DDF1B2E00DEF45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		351468101DDF1B2E00DEF45B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		351468131DDF1B2E00DEF45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		351468151DDF1B2E00DEF45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351468291DDF1BDC00DEF45B /* EPHorizonCalendar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EPHorizonCalendar@3x.png"; sourceTree = "<group>"; };
+		3514682A1DDF1BDC00DEF45B /* EPHorizonPointGreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EPHorizonPointGreen@3x.png"; sourceTree = "<group>"; };
+		3514682B1DDF1BDC00DEF45B /* EPHorizonPointOrange@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EPHorizonPointOrange@3x.png"; sourceTree = "<group>"; };
+		3514682C1DDF1BDC00DEF45B /* EPHorizonProgressCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPHorizonProgressCard.h; sourceTree = "<group>"; };
+		3514682D1DDF1BDC00DEF45B /* EPHorizonProgressCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPHorizonProgressCard.m; sourceTree = "<group>"; };
+		3514682E1DDF1BDC00DEF45B /* EPHorizonProgressCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPHorizonProgressCardModel.h; sourceTree = "<group>"; };
+		3514682F1DDF1BDC00DEF45B /* EPHorizonProgressCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPHorizonProgressCardModel.m; sourceTree = "<group>"; };
+		351468351DDF1DCB00DEF45B /* ShowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowVC.h; sourceTree = "<group>"; };
+		351468361DDF1DCB00DEF45B /* ShowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowVC.m; sourceTree = "<group>"; };
+		351468381DDF201B00DEF45B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		351468391DDF201B00DEF45B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		3514683D1DDF23AE00DEF45B /* EPBarChartCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPBarChartCardModel.h; sourceTree = "<group>"; };
+		3514683E1DDF23AE00DEF45B /* EPBarChartCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPBarChartCardModel.m; sourceTree = "<group>"; };
+		351468401DDF23AE00DEF45B /* EPBarChartCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPBarChartCard.h; sourceTree = "<group>"; };
+		351468411DDF23AE00DEF45B /* EPBarChartCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPBarChartCard.m; sourceTree = "<group>"; };
+		351468421DDF23AE00DEF45B /* EPBarChartDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPBarChartDrawView.h; sourceTree = "<group>"; };
+		351468431DDF23AE00DEF45B /* EPBarChartDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPBarChartDrawView.m; sourceTree = "<group>"; };
+		351468481DDF246000DEF45B /* cong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cong.h; sourceTree = "<group>"; };
+		3514684C1DDF254500DEF45B /* EPFillLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPFillLineModel.h; sourceTree = "<group>"; };
+		3514684D1DDF254500DEF45B /* EPFillLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPFillLineModel.m; sourceTree = "<group>"; };
+		3514684F1DDF254500DEF45B /* EPCardSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPCardSelectView.h; sourceTree = "<group>"; };
+		351468501DDF254500DEF45B /* EPCardSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPCardSelectView.m; sourceTree = "<group>"; };
+		351468511DDF254500DEF45B /* EPFillLineCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPFillLineCard.h; sourceTree = "<group>"; };
+		351468521DDF254500DEF45B /* EPFillLineCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPFillLineCard.m; sourceTree = "<group>"; };
+		351468581DDF447300DEF45B /* EPLineChartCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLineChartCardModel.h; sourceTree = "<group>"; };
+		351468591DDF447300DEF45B /* EPLineChartCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLineChartCardModel.m; sourceTree = "<group>"; };
+		3514685B1DDF447300DEF45B /* EPLineChartCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLineChartCard.h; sourceTree = "<group>"; };
+		3514685C1DDF447300DEF45B /* EPLineChartCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLineChartCard.m; sourceTree = "<group>"; };
+		3514685D1DDF447300DEF45B /* EPLineChartDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLineChartDrawView.h; sourceTree = "<group>"; };
+		3514685E1DDF447300DEF45B /* EPLineChartDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLineChartDrawView.m; sourceTree = "<group>"; };
+		3514685F1DDF447300DEF45B /* EPPassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPassView.h; sourceTree = "<group>"; };
+		351468601DDF447300DEF45B /* EPPassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPassView.m; sourceTree = "<group>"; };
+		351468671DDF4A6100DEF45B /* EPPieChartCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPieChartCardModel.h; sourceTree = "<group>"; };
+		351468681DDF4A6100DEF45B /* EPPieChartCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPieChartCardModel.m; sourceTree = "<group>"; };
+		3514686A1DDF4A6100DEF45B /* EPPieChartCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPieChartCard.h; sourceTree = "<group>"; };
+		3514686B1DDF4A6100DEF45B /* EPPieChartCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPieChartCard.m; sourceTree = "<group>"; };
+		3514687D1DDF4CCF00DEF45B /* EPLinePie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLinePie.h; sourceTree = "<group>"; };
+		3514687E1DDF4CCF00DEF45B /* EPLinePie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLinePie.m; sourceTree = "<group>"; };
+		351468801DDF506F00DEF45B /* EPPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPie.h; sourceTree = "<group>"; };
+		351468811DDF506F00DEF45B /* EPPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPie.m; sourceTree = "<group>"; };
+		351468851DDF514300DEF45B /* EPLinePieChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLinePieChartModel.h; sourceTree = "<group>"; };
+		351468861DDF514300DEF45B /* EPLinePieChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLinePieChartModel.m; sourceTree = "<group>"; };
+		3514688A1DDF514300DEF45B /* EPLinePieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLinePieChart.h; sourceTree = "<group>"; };
+		3514688B1DDF514300DEF45B /* EPLinePieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLinePieChart.m; sourceTree = "<group>"; };
+		3514688C1DDF514300DEF45B /* EPLinePieInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLinePieInfoView.h; sourceTree = "<group>"; };
+		3514688D1DDF514300DEF45B /* EPLinePieInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLinePieInfoView.m; sourceTree = "<group>"; };
+		3514688E1DDF514300DEF45B /* EPLinePieLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPLinePieLineView.h; sourceTree = "<group>"; };
+		3514688F1DDF514300DEF45B /* EPLinePieLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPLinePieLineView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		351467FE1DDF1B2E00DEF45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351467F81DDF1B2E00DEF45B = {
+			isa = PBXGroup;
+			children = (
+				351468031DDF1B2E00DEF45B /* LUViews */,
+				351468021DDF1B2E00DEF45B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		351468021DDF1B2E00DEF45B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351468011DDF1B2E00DEF45B /* LUViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		351468031DDF1B2E00DEF45B /* LUViews */ = {
+			isa = PBXGroup;
+			children = (
+				3514680A1DDF1B2E00DEF45B /* ViewController.h */,
+				3514680B1DDF1B2E00DEF45B /* ViewController.m */,
+				351468351DDF1DCB00DEF45B /* ShowVC.h */,
+				351468361DDF1DCB00DEF45B /* ShowVC.m */,
+				351468831DDF514300DEF45B /* EPLinePieChartCard */,
+				351468651DDF4A6100DEF45B /* EPPieChartCard */,
+				351468561DDF447300DEF45B /* EPLineChartCard */,
+				3514684A1DDF254500DEF45B /* EPFillLineCard */,
+				3514683B1DDF23AE00DEF45B /* EPBarChartCard */,
+				351468281DDF1BDC00DEF45B /* EPHorizonProgressCard */,
+				351468041DDF1B2E00DEF45B /* Supporting Files */,
+			);
+			path = LUViews;
+			sourceTree = "<group>";
+		};
+		351468041DDF1B2E00DEF45B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				351468481DDF246000DEF45B /* cong.h */,
+				351468381DDF201B00DEF45B /* UIView+Frame.h */,
+				351468391DDF201B00DEF45B /* UIView+Frame.m */,
+				351468071DDF1B2E00DEF45B /* AppDelegate.h */,
+				351468081DDF1B2E00DEF45B /* AppDelegate.m */,
+				3514680D1DDF1B2E00DEF45B /* Main.storyboard */,
+				351468101DDF1B2E00DEF45B /* Assets.xcassets */,
+				351468121DDF1B2E00DEF45B /* LaunchScreen.storyboard */,
+				351468151DDF1B2E00DEF45B /* Info.plist */,
+				351468051DDF1B2E00DEF45B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		351468281DDF1BDC00DEF45B /* EPHorizonProgressCard */ = {
+			isa = PBXGroup;
+			children = (
+				351468291DDF1BDC00DEF45B /* EPHorizonCalendar@3x.png */,
+				3514682A1DDF1BDC00DEF45B /* EPHorizonPointGreen@3x.png */,
+				3514682B1DDF1BDC00DEF45B /* EPHorizonPointOrange@3x.png */,
+				3514682C1DDF1BDC00DEF45B /* EPHorizonProgressCard.h */,
+				3514682D1DDF1BDC00DEF45B /* EPHorizonProgressCard.m */,
+				3514682E1DDF1BDC00DEF45B /* EPHorizonProgressCardModel.h */,
+				3514682F1DDF1BDC00DEF45B /* EPHorizonProgressCardModel.m */,
+			);
+			path = EPHorizonProgressCard;
+			sourceTree = "<group>";
+		};
+		3514683B1DDF23AE00DEF45B /* EPBarChartCard */ = {
+			isa = PBXGroup;
+			children = (
+				3514683C1DDF23AE00DEF45B /* model */,
+				3514683F1DDF23AE00DEF45B /* view */,
+			);
+			path = EPBarChartCard;
+			sourceTree = "<group>";
+		};
+		3514683C1DDF23AE00DEF45B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3514683D1DDF23AE00DEF45B /* EPBarChartCardModel.h */,
+				3514683E1DDF23AE00DEF45B /* EPBarChartCardModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3514683F1DDF23AE00DEF45B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				351468401DDF23AE00DEF45B /* EPBarChartCard.h */,
+				351468411DDF23AE00DEF45B /* EPBarChartCard.m */,
+				351468421DDF23AE00DEF45B /* EPBarChartDrawView.h */,
+				351468431DDF23AE00DEF45B /* EPBarChartDrawView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3514684A1DDF254500DEF45B /* EPFillLineCard */ = {
+			isa = PBXGroup;
+			children = (
+				3514684B1DDF254500DEF45B /* model */,
+				3514684E1DDF254500DEF45B /* view */,
+			);
+			path = EPFillLineCard;
+			sourceTree = "<group>";
+		};
+		3514684B1DDF254500DEF45B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3514684C1DDF254500DEF45B /* EPFillLineModel.h */,
+				3514684D1DDF254500DEF45B /* EPFillLineModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3514684E1DDF254500DEF45B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3514684F1DDF254500DEF45B /* EPCardSelectView.h */,
+				351468501DDF254500DEF45B /* EPCardSelectView.m */,
+				351468511DDF254500DEF45B /* EPFillLineCard.h */,
+				351468521DDF254500DEF45B /* EPFillLineCard.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		351468561DDF447300DEF45B /* EPLineChartCard */ = {
+			isa = PBXGroup;
+			children = (
+				351468571DDF447300DEF45B /* model */,
+				3514685A1DDF447300DEF45B /* view */,
+			);
+			path = EPLineChartCard;
+			sourceTree = "<group>";
+		};
+		351468571DDF447300DEF45B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				351468581DDF447300DEF45B /* EPLineChartCardModel.h */,
+				351468591DDF447300DEF45B /* EPLineChartCardModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3514685A1DDF447300DEF45B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3514685B1DDF447300DEF45B /* EPLineChartCard.h */,
+				3514685C1DDF447300DEF45B /* EPLineChartCard.m */,
+				3514685D1DDF447300DEF45B /* EPLineChartDrawView.h */,
+				3514685E1DDF447300DEF45B /* EPLineChartDrawView.m */,
+				3514685F1DDF447300DEF45B /* EPPassView.h */,
+				351468601DDF447300DEF45B /* EPPassView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		351468651DDF4A6100DEF45B /* EPPieChartCard */ = {
+			isa = PBXGroup;
+			children = (
+				351468661DDF4A6100DEF45B /* model */,
+				351468691DDF4A6100DEF45B /* view */,
+			);
+			path = EPPieChartCard;
+			sourceTree = "<group>";
+		};
+		351468661DDF4A6100DEF45B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				351468671DDF4A6100DEF45B /* EPPieChartCardModel.h */,
+				351468681DDF4A6100DEF45B /* EPPieChartCardModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		351468691DDF4A6100DEF45B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				351468801DDF506F00DEF45B /* EPPie.h */,
+				351468811DDF506F00DEF45B /* EPPie.m */,
+				3514687D1DDF4CCF00DEF45B /* EPLinePie.h */,
+				3514687E1DDF4CCF00DEF45B /* EPLinePie.m */,
+				3514686A1DDF4A6100DEF45B /* EPPieChartCard.h */,
+				3514686B1DDF4A6100DEF45B /* EPPieChartCard.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		351468831DDF514300DEF45B /* EPLinePieChartCard */ = {
+			isa = PBXGroup;
+			children = (
+				351468841DDF514300DEF45B /* model */,
+				351468871DDF514300DEF45B /* view */,
+			);
+			path = EPLinePieChartCard;
+			sourceTree = "<group>";
+		};
+		351468841DDF514300DEF45B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				351468851DDF514300DEF45B /* EPLinePieChartModel.h */,
+				351468861DDF514300DEF45B /* EPLinePieChartModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		351468871DDF514300DEF45B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3514688A1DDF514300DEF45B /* EPLinePieChart.h */,
+				3514688B1DDF514300DEF45B /* EPLinePieChart.m */,
+				3514688C1DDF514300DEF45B /* EPLinePieInfoView.h */,
+				3514688D1DDF514300DEF45B /* EPLinePieInfoView.m */,
+				3514688E1DDF514300DEF45B /* EPLinePieLineView.h */,
+				3514688F1DDF514300DEF45B /* EPLinePieLineView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		351468001DDF1B2E00DEF45B /* LUViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351468181DDF1B2E00DEF45B /* Build configuration list for PBXNativeTarget "LUViews" */;
+			buildPhases = (
+				351467FD1DDF1B2E00DEF45B /* Sources */,
+				351467FE1DDF1B2E00DEF45B /* Frameworks */,
+				351467FF1DDF1B2E00DEF45B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LUViews;
+			productName = LUViews;
+			productReference = 351468011DDF1B2E00DEF45B /* LUViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		351467F91DDF1B2E00DEF45B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = luchanghao;
+				TargetAttributes = {
+					351468001DDF1B2E00DEF45B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 351467FC1DDF1B2E00DEF45B /* Build configuration list for PBXProject "LUViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 351467F81DDF1B2E00DEF45B;
+			productRefGroup = 351468021DDF1B2E00DEF45B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				351468001DDF1B2E00DEF45B /* LUViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		351467FF1DDF1B2E00DEF45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351468141DDF1B2E00DEF45B /* LaunchScreen.storyboard in Resources */,
+				351468311DDF1BDC00DEF45B /* EPHorizonPointGreen@3x.png in Resources */,
+				351468111DDF1B2E00DEF45B /* Assets.xcassets in Resources */,
+				351468301DDF1BDC00DEF45B /* EPHorizonCalendar@3x.png in Resources */,
+				3514680F1DDF1B2E00DEF45B /* Main.storyboard in Resources */,
+				351468321DDF1BDC00DEF45B /* EPHorizonPointOrange@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351467FD1DDF1B2E00DEF45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351468921DDF514300DEF45B /* EPLinePieChart.m in Sources */,
+				3514680C1DDF1B2E00DEF45B /* ViewController.m in Sources */,
+				351468641DDF447300DEF45B /* EPPassView.m in Sources */,
+				351468091DDF1B2E00DEF45B /* AppDelegate.m in Sources */,
+				351468821DDF506F00DEF45B /* EPPie.m in Sources */,
+				351468531DDF254500DEF45B /* EPFillLineModel.m in Sources */,
+				351468611DDF447300DEF45B /* EPLineChartCardModel.m in Sources */,
+				351468341DDF1BDC00DEF45B /* EPHorizonProgressCardModel.m in Sources */,
+				3514683A1DDF201B00DEF45B /* UIView+Frame.m in Sources */,
+				351468371DDF1DCB00DEF45B /* ShowVC.m in Sources */,
+				351468941DDF514300DEF45B /* EPLinePieLineView.m in Sources */,
+				351468781DDF4A6100DEF45B /* EPPieChartCard.m in Sources */,
+				351468061DDF1B2E00DEF45B /* main.m in Sources */,
+				351468931DDF514300DEF45B /* EPLinePieInfoView.m in Sources */,
+				351468631DDF447300DEF45B /* EPLineChartDrawView.m in Sources */,
+				351468771DDF4A6100DEF45B /* EPPieChartCardModel.m in Sources */,
+				351468541DDF254500DEF45B /* EPCardSelectView.m in Sources */,
+				351468461DDF23AE00DEF45B /* EPBarChartDrawView.m in Sources */,
+				351468621DDF447300DEF45B /* EPLineChartCard.m in Sources */,
+				3514687F1DDF4CCF00DEF45B /* EPLinePie.m in Sources */,
+				351468331DDF1BDC00DEF45B /* EPHorizonProgressCard.m in Sources */,
+				351468901DDF514300DEF45B /* EPLinePieChartModel.m in Sources */,
+				351468551DDF254500DEF45B /* EPFillLineCard.m in Sources */,
+				351468441DDF23AE00DEF45B /* EPBarChartCardModel.m in Sources */,
+				351468451DDF23AE00DEF45B /* EPBarChartCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3514680D1DDF1B2E00DEF45B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3514680E1DDF1B2E00DEF45B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		351468121DDF1B2E00DEF45B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351468131DDF1B2E00DEF45B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		351468161DDF1B2E00DEF45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		351468171DDF1B2E00DEF45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		351468191DDF1B2E00DEF45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LUViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.LUViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3514681A1DDF1B2E00DEF45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LUViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.LUViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		351467FC1DDF1B2E00DEF45B /* Build configuration list for PBXProject "LUViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351468161DDF1B2E00DEF45B /* Debug */,
+				351468171DDF1B2E00DEF45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351468181DDF1B2E00DEF45B /* Build configuration list for PBXNativeTarget "LUViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351468191DDF1B2E00DEF45B /* Debug */,
+				3514681A1DDF1B2E00DEF45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 351467F91DDF1B2E00DEF45B /* Project object */;
+}
